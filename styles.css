@@ -53,18 +53,65 @@ form {
 
 fieldset {
     border: none;
+    display: flex;
 }
 
 /*styling each field set by its class*/
 
 .names {
-
+    
+    
 }
 
 .contact {
-
+    
+    
 }
 
 .passwords {
+    
+}
 
+/*styling the input boxes.*/
+
+#First_name {
+    margin-top: 20px;
+}
+
+#Last_name {
+    margin-top: 20px;
+}
+
+#email {
+    margin-top: 20px;
+}
+
+#phonenumber {
+    margin-top: 20px;
+}
+
+#password {
+    margin-top: 30px;
+}
+
+#confirm_password {
+    margin-top: 20px;
+}
+
+/*styling submit button*/
+
+.submit-btn {
+
+}
+
+/*styling the last text*/
+
+.last_text {
+    display: flex;
+    margin-top: 10px;
+}
+
+.login_text {
+    margin-left: 5px;
+    color: green;
 }
