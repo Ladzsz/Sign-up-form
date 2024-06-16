@@ -30,8 +30,41 @@ html {
 
 /*styling the h2*/
 
-h2 {
+.text {
     text-align: center;
     margin-top: 250px;
     margin-right: 500px;
+}
+
+/*styling the next h2*/
+
+.next_text {
+    text-align: center;
+    margin-right: 500px;
+}
+
+/*styling the form container*/
+
+form {
+    background-color: #E1D9D1;
+}
+
+/*styling the fieldsets*/
+
+fieldset {
+    border: none;
+}
+
+/*styling each field set by its class*/
+
+.names {
+
+}
+
+.contact {
+
+}
+
+.passwords {
+
 }
