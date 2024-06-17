@@ -30,50 +30,62 @@
                 <!--form for the signup-->
                 <form action="" method="post">
                     <fieldset class="names">
-                        <div class="labels">
-                            <label for="First_name">First Name</label><br>
+                        <div class="label-input-container">
+                            <div class="labels">
+                                <label for="First_name">First Name</label><br>
+                            </div>
+                            <div class="inputs">
+                                <input type="text" id="First_name" name="First_name" required>
+                            </div>
                         </div>
-                        <div class="inputs">
-                            <input type="text" id="First_name" name="First_name" required>
-                        </div>
-                    
-                        <div class="labels">
-                            <label for="Last_name">Last Name</label><br>
-                        </div>
-                        <div class="inputs">
-                            <input type="text" id="Last_name" name="Last_name" required><br><br>
+                
+                        <div class="label-input-container">
+                            <div class="labels">
+                                <label for="Last_name">Last Name</label><br>
+                            </div>
+                            <div class="inputs">
+                                <input type="text" id="Last_name" name="Last_name" required>
+                            </div>
                         </div>
                     </fieldset>
-                    
+                
                     <fieldset class="contact">
-                        <div class="labels">
-                            <label for="email">Email</label><br>
+                        <div class="label-input-container">
+                            <div class="labels">
+                                <label for="email">Email</label><br>
+                            </div>
+                            <div class="inputs">
+                                <input type="email" id="email" name="email" required>
+                            </div>
                         </div>
-                        <div class="inputs">
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                    
-                        <div class="labels">
-                            <label for="phonenumber">Phone Number</label><br>
-                        </div>
-                        <div class="inputs">
-                            <input type="number" id="phonenumber" name="phonenumber" required><br><br>
+                
+                        <div class="label-input-container">
+                            <div class="labels">
+                                <label for="phonenumber">Phone Number</label><br>
+                            </div>
+                            <div class="inputs">
+                                <input type="number" id="phonenumber" name="phonenumber" required>
+                            </div>
                         </div>
                     </fieldset>
-                    
+                
                     <fieldset class="passwords">
-                        <div class="labels">
-                            <label for="Password">Password</label>
+                        <div class="label-input-container">
+                            <div class="labels">
+                                <label for="Password">Password</label><br>
+                            </div>
+                            <div class="inputs">
+                                <input type="password" id="Password" name="Password" required>
+                            </div>
                         </div>
-                        <div class="inputs">
-                            <input type="password" id="Password" name="Password" required>
-                        </div>
-                        
-                        <div class="labels">
-                            <label for="confirm_password">Confirm Password</label>
-                        </div>
-                        <div class="inputs">
-                            <input type="password" id="confirm_password" name="confirm_password" required>
+                
+                        <div class="label-input-container">
+                            <div class="labels">
+                                <label for="confirm_password">Confirm Password</label><br>
+                            </div>
+                            <div class="inputs">
+                                <input type="password" id="confirm_password" name="confirm_password" required>
+                            </div>
                         </div>
                     </fieldset>
 

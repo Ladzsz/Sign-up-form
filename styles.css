@@ -29,7 +29,7 @@ html {
 
 .page {
     height: 100%;
-    background-color: white;
+    background-color: black;
     position: absolute;
     top: 0;
     right: 0;
@@ -43,51 +43,62 @@ html {
 .text {
     text-align: center;
     margin-top: 250px;
-    margin-right: 500px;
+    color: #fbe47c;
 }
 
 /*styling the next h2*/
 
 .next_text {
     text-align: center;
-    margin-right: 500px;
+    color: #fbe47c;
 }
 
 /*styling the form container*/
 
 form {
-    background-color: #E1D9D1;
+    background-color: black;
 }
 
 /*styling the fieldsets*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 220px;
+}
 
 fieldset {
     border: none;
-    padding-bottom: 166px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
-/*styling each input and label*/
+/* Styling each label and input */
+
+.labels, .inputs {
+    width: 100%;
+    text-align: center;
+    margin: 10px; 
+}
+
+.label-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+}
 
 .labels {
-    margin-left: 250px;
     color: #fbe47c;
 }
 
-.inputs {
-    display: flex;
-    justify-content: flex-start;
-}
-
-/*styling the input boxes.*/
-
-.labels label, .inputs input {
-    margin-bottom: 10px;
-}
-
 input {
-    margin-top: 25px;
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
 }
+
 
 /*styling submit button*/
 
@@ -96,6 +107,7 @@ input {
     padding: 20px;
     color: #fbe47c;
     background-color: black;
+    cursor: pointer;
 }
 
 /*styling the last text*/
@@ -103,15 +115,17 @@ input {
 .last_text {
     display: flex;
     margin-top: 10px;
+    color: #fbe47c;
 }
 
 .login_text {
     margin-left: 5px;
-    color: #fbe47c;
+    color: blue;
 }
 
 /*styling the position of button and text*/
 
 .submit {
-    margin-left: 600px;
+    margin-top: 50px;
+    margin-left: 80px;
 }
