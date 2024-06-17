@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="logo_area">
+        <img src="images/Logo.jpeg" alt="logo image">
+        <h1 class="logo_text">Coding With Lad</h1>
+    </div>
+
     <!--div to hold the backround image-->
     <div class="backround-container">
     <!--div to hold the pages backround content-->
@@ -25,28 +30,51 @@
                 <!--form for the signup-->
                 <form action="" method="post">
                     <fieldset class="names">
-                        <label for="name">First Name</label><br>
-                        <input type="text" id="First_name" name="First_name" required>
-
-                        <label for="name">Last Name</label><br>
-                        <input type="text" id="Last_name" name="Last_name" required><br><br>
-
+                        <div class="labels">
+                            <label for="First_name">First Name</label><br>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" id="First_name" name="First_name" required>
+                        </div>
+                    
+                        <div class="labels">
+                            <label for="Last_name">Last Name</label><br>
+                        </div>
+                        <div class="inputs">
+                            <input type="text" id="Last_name" name="Last_name" required><br><br>
+                        </div>
                     </fieldset>
                     
                     <fieldset class="contact">
-                        <label for="email">Email</label><br>
-                        <input type="email" id="email" name="email" required>
-
-                        <label for="phonenumber">Phone Number</label><br>
-                        <input type="number" id="phonenumber" name="phonenumber" required><br><br>
+                        <div class="labels">
+                            <label for="email">Email</label><br>
+                        </div>
+                        <div class="inputs">
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    
+                        <div class="labels">
+                            <label for="phonenumber">Phone Number</label><br>
+                        </div>
+                        <div class="inputs">
+                            <input type="number" id="phonenumber" name="phonenumber" required><br><br>
+                        </div>
                     </fieldset>
-
+                    
                     <fieldset class="passwords">
-                        <label for="Password">Password</label><br>
-                        <input type="password" id="Password" name="Password" required>
-
-                        <label for="confirm_password">Confirm Password</label><br>
-                        <input type="password" id="confirm_password" name="confirm_password" required>
+                        <div class="labels">
+                            <label for="Password">Password</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="password" id="Password" name="Password" required>
+                        </div>
+                        
+                        <div class="labels">
+                            <label for="confirm_password">Confirm Password</label>
+                        </div>
+                        <div class="inputs">
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </div>
                     </fieldset>
 
                     <div class="submit">

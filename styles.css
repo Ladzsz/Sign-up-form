@@ -4,6 +4,16 @@ html {
     background-color: black;
 }
 
+/*styling logo part*/
+
+.logo_text {
+    color: #fbe47c;
+}
+
+.logo_area {
+    margin-left: 150px;
+}
+
 /*styling the image to be fixed*/
 
 .backround-container {
@@ -53,55 +63,39 @@ form {
 
 fieldset {
     border: none;
+    padding-bottom: 166px;
     display: flex;
 }
 
-/*styling each field set by its class*/
+/*styling each input and label*/
 
-.names {
-    
-    
+.labels {
+    margin-left: 250px;
+    color: #fbe47c;
 }
 
-.contact {
-    
-    
-}
-
-.passwords {
-    
+.inputs {
+    display: flex;
+    justify-content: flex-start;
 }
 
 /*styling the input boxes.*/
 
-#First_name {
-    margin-top: 20px;
+.labels label, .inputs input {
+    margin-bottom: 10px;
 }
 
-#Last_name {
-    margin-top: 20px;
-}
-
-#email {
-    margin-top: 20px;
-}
-
-#phonenumber {
-    margin-top: 20px;
-}
-
-#password {
-    margin-top: 30px;
-}
-
-#confirm_password {
-    margin-top: 20px;
+input {
+    margin-top: 25px;
 }
 
 /*styling submit button*/
 
 .submit-btn {
-
+    text-align: center;
+    padding: 20px;
+    color: #fbe47c;
+    background-color: black;
 }
 
 /*styling the last text*/
@@ -113,5 +107,11 @@ fieldset {
 
 .login_text {
     margin-left: 5px;
-    color: green;
+    color: #fbe47c;
+}
+
+/*styling the position of button and text*/
+
+.submit {
+    margin-left: 600px;
 }
