@@ -1,7 +1,28 @@
+/*bringing in an external font*/
+
+@font-face {
+    font-family: 'used_font';
+    src: url('source-sans-pro/') format('otf');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+
 /*styling the backround to be black*/
 
 html {
     background-color: black;
+    font-family: "used_font", sans-serif;
+}
+
+/*styling logo part*/
+
+.logo_text {
+    color: #fbe47c;
+}
+
+.logo_area {
+    margin-left: 150px;
 }
 
 /*styling the image to be fixed*/
@@ -19,7 +40,7 @@ html {
 
 .page {
     height: 100%;
-    background-color: white;
+    background-color: black;
     position: absolute;
     top: 0;
     right: 0;
@@ -33,75 +54,82 @@ html {
 .text {
     text-align: center;
     margin-top: 250px;
-    margin-right: 500px;
+    color: #fbe47c;
 }
 
 /*styling the next h2*/
 
 .next_text {
     text-align: center;
-    margin-right: 500px;
+    color: #fbe47c;
 }
 
 /*styling the form container*/
 
 form {
-    background-color: #E1D9D1;
+    background-color: black;
 }
 
 /*styling the fieldsets*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 222px;
+}
 
 fieldset {
     border: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
-/*styling each field set by its class*/
+/* Styling each label and input */
 
-.names {
-    
-    
+.labels, .inputs {
+    width: 100%;
+    text-align: center;
+    margin: 10px; 
 }
 
-.contact {
-    
-    
+.label-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
 }
 
-.passwords {
-    
+.labels {
+    color: #fbe47c;
 }
 
-/*styling the input boxes.*/
-
-#First_name {
-    margin-top: 20px;
+input {
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-#Last_name {
-    margin-top: 20px;
+/*adding valid and invalid styles*/
+
+input:valid {
+    border: solid 5px #fbe47c;
 }
 
-#email {
-    margin-top: 20px;
+input:invalid {
+    border: solid 5px red;
 }
 
-#phonenumber {
-    margin-top: 20px;
-}
-
-#password {
-    margin-top: 30px;
-}
-
-#confirm_password {
-    margin-top: 20px;
-}
 
 /*styling submit button*/
 
 .submit-btn {
-
+    text-align: center;
+    padding: 20px;
+    color: #fbe47c;
+    background-color: black;
+    cursor: pointer;
+    border: solid #fbe47c 1px;
 }
 
 /*styling the last text*/
@@ -109,9 +137,17 @@ fieldset {
 .last_text {
     display: flex;
     margin-top: 10px;
+    color: #fbe47c;
 }
 
 .login_text {
     margin-left: 5px;
-    color: green;
+    color: blue;
+}
+
+/*styling the position of button and text*/
+
+.submit {
+    margin-top: 50px;
+    margin-left: 80px;
 }
