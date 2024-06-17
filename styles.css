@@ -1,7 +1,18 @@
+/*bringing in an external font*/
+
+@font-face {
+    font-family: 'used_font';
+    src: url('source-sans-pro/') format('otf');
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+
 /*styling the backround to be black*/
 
 html {
     background-color: black;
+    font-family: "used_font", sans-serif;
 }
 
 /*styling logo part*/
