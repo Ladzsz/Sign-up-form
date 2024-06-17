@@ -64,7 +64,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 220px;
+    padding-bottom: 222px;
 }
 
 fieldset {
@@ -99,6 +99,16 @@ input {
     box-sizing: border-box;
 }
 
+/*adding valid and invalid styles*/
+
+input:valid {
+    border: solid 5px #fbe47c;
+}
+
+input:invalid {
+    border: solid 5px red;
+}
+
 
 /*styling submit button*/
 
@@ -108,6 +118,7 @@ input {
     color: #fbe47c;
     background-color: black;
     cursor: pointer;
+    border: solid #fbe47c 1px;
 }
 
 /*styling the last text*/
