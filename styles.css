@@ -19,10 +19,14 @@ html {
 
 .logo_text {
     color: #fbe47c;
+    background-color: black;
 }
 
 .logo_area {
     margin-left: 150px;
+    position: absolute;
+    margin-top: 385px;
+    
 }
 
 /*styling the image to be fixed*/
@@ -34,6 +38,7 @@ html {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    padding-bottom: 110px;
 }
 
 /*styling the page to be white*/
@@ -75,7 +80,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 222px;
+    
 }
 
 fieldset {
